@@ -1,0 +1,37 @@
+<div class="button-area">
+  <button nz-button (click)="addBook()" nzType="primary">
+    Add new book
+  </button>
+  <app-book-modal
+  [isVisible]="showForm"
+  (closeModal)="showForm=false" (addBook)="addReceivedBook($event)"
+></app-book-modal>
+  
+</div>
+<nz-table #basicTable [nzData]="listOfData" [nzPageSize]="8">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Year of publication</th>
+        <th>Publishing house</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of basicTable.data">
+        <td>{{ data.title | capitalize}}</td>
+        <td>{{ data.author | capitalize}}</td>
+        <td>{{ data.yearOfPublication}}</td>
+        <td>{{data.publishingHouse}}</td>
+        <td>
+          <button (click)="editEntry(data)">
+            <span nz-icon nzType="edit" nzTheme="outline"></span>
+          </button>
+        </td>       
+      </tr>
+
+    </tbody>
+  </nz-table>
+`
+

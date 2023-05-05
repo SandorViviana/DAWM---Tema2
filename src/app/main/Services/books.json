@@ -1,0 +1,117 @@
+[
+{
+    "title": "Crime and punishment",
+    "author": "F. M. Dostoyevsky",
+    "yearOfPublication": 2002,
+    "publishingHouse":"Penguin"
+},
+{
+    "title": "Paludes",
+    "author": "Andre Gide",
+    "yearOfPublication": 2010,
+    "publishingHouse":"Gallimard"
+},
+{
+    "title": "Banquet in Blitva",
+    "author": "Miroslav Krleza",
+    "yearOfPublication": 2004,
+    "publishingHouse":"Northwestern University Press"
+},
+{
+    "title": "The secret agent",
+    "author": "Joseph Conrad",
+    "yearOfPublication": 2004,
+    "publishingHouse":"Oxford University Press"
+},
+{
+    "title": "Auto-da-Fe",
+    "author": "Elias Canetti",
+    "yearOfPublication": 1984,
+    "publishingHouse":"Farrar, Straus and Giroux"
+},
+{
+    "title": "The grapes of wrath",
+    "author": "John Steinbeck",
+    "yearOfPublication": 2014,
+    "publishingHouse":"Viking"
+},
+{
+    "title": "Steppenwolf",
+    "author": "Hermann Hesse",
+    "yearOfPublication": 1999,
+    "publishingHouse":"Penguin"
+},
+{
+    "title": "Professor Unrat",
+    "author": "Heinrich Mann",
+    "yearOfPublication": 1996,
+    "publishingHouse":"Rororo"
+},
+{
+    "title": "Master and Margarita",
+    "author": "Mikhail Bulgakov",
+    "yearOfPublication": 1996,
+    "publishingHouse":"Vintage International"
+},
+{
+    "title": "Without dogma",
+    "author": "Henryk Sienkiewicz",
+    "yearOfPublication": 2008,
+    "publishingHouse":"BiblioLife"
+},
+{
+    "title": "Solaris",
+    "author": "Stanislaw Lem",
+    "yearOfPublication": 2002,
+    "publishingHouse":"Harcourt"
+},
+{
+    "title": "Zeno's conscience",
+    "author": "Italo Svevo",
+    "yearOfPublication": 2004,
+    "publishingHouse":"Vintage"
+},
+{
+    "title": "La Debacle",
+    "author": "Emile Zola",
+    "yearOfPublication": 2000,
+    "publishingHouse":"Oxford University Press"
+},
+{
+    "title": "Forest of the hanged",
+    "author": "Liviu Rebreanu",
+    "yearOfPublication": 2017,
+    "publishingHouse":"Casemate"
+},
+{
+    "title": "The forbidden forest",
+    "author": "Mircea Eliade",
+    "yearOfPublication": 1978,
+    "publishingHouse":"University of Notre Dame Press"
+},
+{
+    "title": "The bridge over Drina",
+    "author": "Ivo Andric",
+    "yearOfPublication": 1977,
+    "publishingHouse":"University of Chicago Press"
+},
+{
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "yearOfPublication": 2012,
+    "publishingHouse":"Vintage"
+},
+{
+    "title": "Fathers and sons",
+    "author": "Ivan Turgenev",
+    "yearOfPublication": 2005,
+    "publishingHouse":"Signet Books"
+},
+{
+    "title": "The red room",
+    "author": "August Strindberg",
+    "yearOfPublication": 1974,
+    "publishingHouse":"Bonniers"
+}
+
+]

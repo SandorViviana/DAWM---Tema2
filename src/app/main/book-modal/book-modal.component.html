@@ -1,0 +1,65 @@
+
+<nz-modal
+  [(nzVisible)]="isVisible"
+  nzTitle="Add a book"
+  (nzOnCancel)="onCancel()"
+  (nzOnOk)="onOk()"
+  [nzOkDisabled]="!bookForm.valid"
+>
+  <ng-container *nzModalContent>
+    <form nz-form [formGroup]="bookForm" class="modal-form">
+      <nz-form-item>
+        <nz-form-control nzErrorTip="Please input the title of the book!">
+          <nz-input-group>
+            <input
+              type="text"
+              nz-input
+              formControlName="title"
+              placeholder="Title"
+            />
+          </nz-input-group>
+        </nz-form-control>
+      </nz-form-item>
+      <nz-form-item>
+        <nz-form-control  nzErrorTip="Please input the name of the author!">
+          <nz-input-group>
+            <input
+              type="text"
+              nz-input
+              formControlName="author"
+              placeholder="Author"
+            />
+          </nz-input-group>                   
+        </nz-form-control>
+      </nz-form-item>
+      <nz-form-item>
+        <nz-form-control nzErrorTip="Please input the year of publication!">
+          <nz-input-group>
+            <input
+              type="text"
+              nz-input
+              formControlName="year"
+              placeholder="Year of publication"
+            />
+          </nz-input-group>
+          <div class="red-text" *ngIf="year?.errors?.['containsNumber']">
+            The year is invalid
+          </div>
+        </nz-form-control>
+       
+      </nz-form-item>
+      <nz-form-item>
+        <nz-form-control nzErrorTip="Please input the publishing house!">
+          <nz-input-group>
+            <input
+              type="text"
+              nz-input
+              formControlName="edition"
+              placeholder="Publishing house"
+            />
+          </nz-input-group>
+        </nz-form-control>       
+      </nz-form-item>
+    </form>
+  </ng-container>
+</nz-modal>
