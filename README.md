@@ -1,4 +1,4 @@
-# Tema2
+# Tema2 - Tabel cu operații de adăugare și editare (folosirea bibliotecii de UI Nz-Zorro)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
 
